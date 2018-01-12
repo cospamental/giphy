@@ -1,0 +1,9 @@
+button{
+    border:solid 2px green;
+    background-color:black;
+    color:white;
+    padding:5px 20px;
+}
+
+input { font-family: 'FontAwesome'; } 
+
