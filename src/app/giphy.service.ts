@@ -9,7 +9,7 @@ export class GiphyService {
   constructor(private _http:HttpClient) { }
 
   dailyGifs(){
-    return this._http.get("http://api.giphy.com/v1/gifs/trending?api_key=dc6zaTOxFJmzC&limit=15")
+    return this._http.get("https://api.giphy.com/v1/gifs/trending?api_key=dc6zaTOxFJmzC&limit=15")
     .map(result => result);
     }
 
